@@ -1,0 +1,110 @@
+
+a:link{
+  color:white;
+}
+a:visited{
+  color:white;
+}
+
+.container{
+  max-width: 1170px
+  width:100%;
+  margin: auto;
+}
+
+header{
+  height: 100px;
+  text-align: center;
+  line-height:70px;
+  background-image:url(img/top_image.jpg);
+  background-size: cover;
+  color:white;
+  position:fixed;
+  top:0px;
+  z-index: 10;
+  width:100%;
+}
+
+.title{
+  float:left;
+}
+
+.header-right{
+  float:right;
+  line-height: 180px;
+}
+
+.header-menu{
+  float:left;
+  display: inline-block;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  height:10px;
+  padding-right:10px;
+}
+
+.introduction_wrapper{
+  height: 400px;
+  margin-top:100px;
+  padding-top:50px;
+}
+
+.menu{
+  width:100%;
+  text-align: center;
+  color:white;
+}
+
+.menu-list{
+  width:30%;
+  height: 300px;
+  line-height: 250px;
+  float: left;
+  border-radius: 7px;
+  margin: 20px;
+  color:inherit;
+}
+
+.about{
+  background-color:mediumblue;
+}
+
+.bookList{
+  background-color:green;
+}
+
+.who{
+  background-color:mediumvioletred;
+}
+
+.about_wrapper{
+  height:500px;
+}
+
+.about_wrapper h1{
+  text-align: center;
+}
+
+.about-contents{
+  width:80%;
+  margin-left:400px;
+}
+
+.about-text{
+  text-align: center;
+}
+
+.bookList_wrapper{
+  background-color:grey;
+  height:500px;
+
+}
+
+.bookList_wrapper h1{
+  text-align: center;
+}
+
+.bookList-contents{
+  width:80%;
+  margin-left:400px;
+}
