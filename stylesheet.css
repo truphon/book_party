@@ -16,7 +16,7 @@ header{
   height: 100px;
   text-align: center;
   line-height:70px;
-  background-image:url(img/top_image.jpg);
+  background-image:url(top_image.jpg);
   background-size: cover;
   color:white;
   position:fixed;
