@@ -1,9 +1,15 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="ja" dir="ltr">
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700">
     <title>Book_party</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
   </head>
   <body>
     <header>
@@ -12,9 +18,9 @@
           <h1 class="title">しゃべる読書会♪</h1>
         </div>
         <div class="header-right">
-          <a href="#" class="header-menu">どんな読書会？</a>
-          <a href="#" class="header-menu">これまでに紹介された本</a>
-          <a href="#" class="header-menu">誰がやってるの？</a>
+          <a class="pageLink" href="#about_wrapper" class="header-menu">どんな読書会？</a>
+          <a class="pageLink" href="#bookList_wrapper" class="header-menu">これまでに紹介された本</a>
+          <a class="pageLink" href="#who_wrapper" class="header-menu">誰がやってるの？</a>
         </div>
       </div>
     </header>
@@ -23,13 +29,13 @@
         <div class="container">
           <div class="menu">
             <div class="menu-list about">
-              <a href="#about_wrapper">どんな読書会？</a>
+              <a class="pageLink" href="#about_wrapper">どんな読書会？</a>
             </div>
             <div class="menu-list bookList">
-              <a href="#bookList_wrapper">これまでに紹介された本</a>
+              <a class="pageLink" href="#bookList_wrapper">これまでに紹介された本</a>
             </div>
             <div class="menu-list who">
-              <a href="#who_wrapper">誰がやってるの？</a>
+              <a class="pageLink" href="#who_wrapper">誰がやってるの？</a>
             </div>
           </div>
         </div>
@@ -66,7 +72,30 @@
       </div>
 
       <div class="who_wrapper" id="who_wrapper">
-      </div>
+        <div class="container">
+          <h1>誰がやってんの？</h1>
+          <div class="who-contents">
+            <div class="feature　basicInfomation">
+              <p>基本情報</p>
+              <ul>
+                <li class="basicInfo age">年齢：28</li>
+                <li class="basicInfo sex">性別：男</li>
+                <li class="basicInfo work">仕事：システムエンジニア</li>
+              </ul>
+            </div>
 
+            <div class="feature　favorite_book">
+              <p>好きな本</p>
+              <ul>
+                <li class="favorite_bookList fiction">小説<br>『本日はお日柄もよく』原田マハ、『永遠の０』百田尚樹</li>
+                <li class="favorite_bookList business">ビジネス書<br>『原因と結果の法則』ジェームス・アレン、『上京物語』喜多川泰、『読んだら忘れない読書術』樺沢紫苑</li>
+                <li class="favorite_bookList comic">マンガ<br>『鋼の錬金術師』荒川弘、『コッペリオン』井上智徳</li>
+                <li class="favorite_bookList others">その他<br>『空想科学読本』</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
