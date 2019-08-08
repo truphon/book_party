@@ -2,10 +2,10 @@ $(function(){
 
   $('.contentsList').click(function(){
     var $detail = $(this).find('contentsList_Detail');
-    if($detail).hasClass('open'){
+    if($detail.hasClass('open')){
       $detail.removeClass('open');
       $detail.slideUp();
-    }else {
+    } else {
     $detail.addClass('open');
     $detail.slideDown();
     };
