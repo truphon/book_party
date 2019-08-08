@@ -76,7 +76,7 @@ header{
 }
 
 .about_wrapper{
-  height:600px;
+  height:700px;
   width:100%;
 }
 
@@ -140,4 +140,47 @@ header{
 
 .who-contents{
   margin-left: 300px;
+}
+
+.contact_wrapper{
+  height:500px;
+  text-align: center;
+  background-color:#f4f4f4;
+  margin:0 auto;
+}
+
+.contact_wrapper h1{
+  padding-top:80px;
+}
+
+.contact_email{
+  display: block;
+  height: 40px;
+  width:60%;
+  margin-left: 250px;
+  margin-bottom:10px;
+  font-size: 15px;
+}
+
+.contact_subject{
+  display: block;
+  height: 40px;
+  width:60%;
+  margin-left: 250px;
+  margin-bottom:10px;
+  font-size: 15px;
+}
+
+.contact_message{
+  display: block;
+  height: 120px;
+  width:60%;
+  margin-left: 250px;
+  margin-bottom:10px;
+  font-size: 15px;
+}
+
+.btn-contact{
+  padding:10px 15px;
+  border-radius:4px;
 }
