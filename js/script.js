@@ -1,7 +1,7 @@
 $(function(){
 
   $('.contentsList').click(function(){
-    var $detail = $(this).find('contentsList_Detail');
+    var $detail = $(this).find('.contentsList_Detail');
     if($detail.hasClass('open')){
       $detail.removeClass('open');
       $detail.slideUp();
